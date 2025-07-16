@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Languages
 ![Java](https://img.shields.io/badge/Java-007396.svg?style=flat&logo=java&logoColor=white)
@@ -79,7 +79,7 @@
 
 ---
 
-## 학습 중인 기술 (Why & What for)
+## 학습 중인 기술
 
 - **MQ (Message Queue)**  
   → 대량 이메일 발송 시 병목 현상을 줄이고, 발송 요청을 비동기 처리하기 위해 MQ 도입을 고려 중입니다.  
