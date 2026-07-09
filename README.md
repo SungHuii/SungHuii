@@ -49,8 +49,8 @@
 ---
 
 ## 📝 Latest Blog Posts
-<!-- START_BLOG_POSTS -->
-<!-- END_BLOG_POSTS -->
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
