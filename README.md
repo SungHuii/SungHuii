@@ -50,6 +50,11 @@
 
 ## 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [[CS/Network] C언어 소켓 코드 Java로 이해하기](https://b-t-d.tistory.com/entry/CSNetwork-C%EC%96%B8%EC%96%B4-%EC%86%8C%EC%BC%93-%EC%BD%94%EB%93%9C-Java%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+- [[CS] 프로세스의 계층 구조 - 고아 프로세스, 좀비 프로세스](https://b-t-d.tistory.com/entry/CS-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%9D%98-%EA%B3%84%EC%B8%B5-%EA%B5%AC%EC%A1%B0-%EA%B3%A0%EC%95%84-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%A2%80%EB%B9%84-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+- [[CS] 메인보드 버스 속도가 CPU만큼 빨라지면, 캐시 메모리는 필요한가?](https://b-t-d.tistory.com/entry/CS-%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C-%EB%B2%84%EC%8A%A4-%EC%86%8D%EB%8F%84%EA%B0%80-CPU%EB%A7%8C%ED%81%BC-%EB%B9%A8%EB%9D%BC%EC%A7%80%EB%A9%B4-%EC%BA%90%EC%8B%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC%EB%8A%94-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80)
+- [[아키텍처] 팀 프로젝트에 Kafka / Redis 도입](https://b-t-d.tistory.com/entry/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-Kafka-Redis-%EB%8F%84%EC%9E%85)
+- [[CS] 커널 자세히 알아보기](https://b-t-d.tistory.com/entry/CS-%EC%BB%A4%EB%84%90-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
 <!-- BLOG-POST-LIST:END -->
 
 ---
