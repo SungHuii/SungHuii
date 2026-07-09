@@ -1,102 +1,59 @@
-# 기획과 구조 설계를 중시하는 백엔드 개발자. 홍성휘입니다.
+# 안녕하세요, 백엔드 개발자 홍성휘입니다. 👋
 
-## 👨‍💻 About Me
-
-**기획과 구조 설계를 중시하는 백엔드 개발자**입니다.  
-기능 구현에 앞서, **누구를 위한 기능인지**, **어떻게 구조화할 것인지**를 정의하는 과정을 중요하게 생각합니다.
-
-**협업을 전제한 개발 환경 구성**을 중요시합니다.  
-개인 프로젝트를 진행하면서도 API 명세, Git 커밋/브랜치 전략, Swagger 문서화 등을 작성해왔습니다.
-
-**구조적 설계, 명세 문서화, 협업 준비를 프로젝트에 녹여내려 노력**해왔습니다.
-
-**사용자의 입장에서 문제를 정의하고 해결 방안을 고민합니다.**  
-서비스 전반에 대한 깊은 이해와 사용자 중심의 사고방식을 바탕으로 더 나은 경험을 제공하려 노력합니다.
+> **근거 중심의 검증과 최적화로 시스템의 안정성을 확보합니다.**
+> 기술을 도입할 때 항상 "왜 이 기술이어야 하는가?"를 집요하게 질문하고, 모니터링과 테스트(k6)를 통한 성능 지표 검증을 바탕으로 아키텍처 당위성을 증명해 나가는 백엔드 개발자입니다.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stacks
 
-### Languages
-![Java](https://img.shields.io/badge/Java-007396.svg?style=flat&logo=java&logoColor=white)
-
-### Backend & Database
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-336791?style=flat)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-
-### DevOps & Infra
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat)
-![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel)
-
----
-
-## Representative Project – VisiLog (2025)
-
-> **방문자 행동 기반 자동화 마케팅 SaaS 서비스**  
-> 웹사이트 방문자의 행동을 수집하고, 조건을 만족할 경우 자동으로 이메일을 발송하는 플랫폼입니다.
-
-- **프로젝트 시작 배경**  
-  Cursor IDE를 무료 플랜으로 사용하던 중, 유료 결제 페이지에 진입했다가 결제를 진행하지 않은 채 이탈한 적이 있었습니다.  
-  며칠 후, Cursor 팀의 담당자로부터 "**결제 페이지까지 왔다가 나간 이유가 무엇인지, 도움이 필요하다면 연락해달라**"는 메일을 받았습니다.
-
-  이 경험을 통해, **단순한 행동 이력(결제 페이지 진입)만으로도 개인화된 메시지를 보낼 수 있다면, 사용자 경험을 크게 향상시킬 수 있겠다는 인사이트**를 얻게 되었습니다.  
-  이에 착안하여, **웹사이트 방문자의 행동 데이터를 수집하고, 특정 조건을 만족하면 자동으로 이메일을 발송하는 SaaS 플랫폼을 직접 만들어보기로** 했습니다.
-
-- **사용자 Pain Point와 해결 방식**  
-  많은 웹사이트 운영자는 **사용자의 이탈 순간을 정확히 인지하거나, 그에 맞춰 대응하지 못하는 어려움**을 겪습니다.  
-  예를 들어, 결제 직전 페이지까지 접근한 방문자에게 아무런 후속 조치를 하지 못한 채 이탈을 방치하는 경우가 많습니다.
-
-  이 문제를 해결하기 위해,  
-  - **SDK로 사용자의 행동 로그를 수집하고**,  
-  - **Spring Boot 기반 조건 판별 로직으로 세그먼트를 자동 구성**,  
-  - **SendGrid API를 통해 맞춤형 이메일을 자동 발송**하는 구조를 설계했습니다.
-
-  이를 통해 **조건 기반 마케팅 자동화를 구현**할 수 있습니다.
-
-- **구현 기능**  
-  - SDK 삽입 → 방문자 행동(page_view, click 등) 자동 수집  
-  - 조건 등록 → 조건 충족 시 세그먼트 생성  
-  - 스케줄러 → 세그먼트 대상 이메일 자동 발송  
-  - 도메인 검증(Interceptor), JWT 인증 구조 구현
- 
-- **주요 기술**  
-  Java 17, Spring Boot 3.4.4, PostgreSQL, Swagger, SendGrid, JWT, GitHub Actions, Docker
-
- SDK: [behavior-tracking-sdk](https://github.com/SungHuii/behavior-tracking-sdk)  
- Backend: [sdk-behavior-trigger-mvp](https://github.com/SungHuii/sdk-behavior-trigger-mvp)
+<p>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=OpenJDK&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=Spring-Boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=Apache-Kafka&logoColor=white"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon-AWS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=GitHub-Actions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/k6-7B62FC?style=flat-square&logo=k6&logoColor=white"/>
+</p>
 
 ---
 
-## 개발 시 중요하게 여기는 점
+## 📊 GitHub Stats & Streak
 
--  기능 단위 설계 → 유저 스토리 / ERD / 시퀀스 → API 명세 → 구현
--  도메인 기반 패키지 구성 (visitor, log_event, condition 등)
--  MockMvc 기반 통합 테스트 작성 및 CI 연동
--  보안 인증 로직 분리 (JWT + Security Filter)
--  Swagger 기반 문서 자동화 → 협업/테스트 가이드화
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SungHuii&show_icons=true&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SungHuii&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub Streak" />
+</p>
 
 ---
 
-## 학습 중인 기술
+## 🚀 Projects
 
-- **MQ (Message Queue)**  
-  → 대량 이메일 발송 시 병목 현상을 줄이고, 발송 요청을 비동기 처리하기 위해 MQ 도입을 고려 중입니다.  
-  메시지 유실 시의 처리 방식, 재시도 전략 등 실무 적용을 위한 구조를 학습하고 있습니다.
+### 🎵 모두의 플리
+**대규모 트래픽 대응 글로벌 컨텐츠 평점 및 큐레이션 플랫폼**
+- 멀티 인스턴스 스케일아웃 환경에서 **Kafka 메시지 큐와 Redis Pub/Sub 라우팅 아키텍처**를 결합하여 알림/팔로우 도메인의 비동기 디커플링 구현.
+- **k6 Soak 테스트 기준 p(95) 응답 속도를 2.00s에서 23.92ms로 약 98.8% 개선.**
+- 네트워크 단절 시 알림 유실 방지를 위해 **Redis ZSet 기반의 Last-Event-Id 자동 재연결(자가 치유)** 인프라 구축.
 
-- **Redis (pub/sub, TTL 등)**  
-  → 프로젝트의 세그먼트 조건 만족 여부를 빠르게 판단하고, 발송 큐의 부하를 분산하기 위한 캐시 및 메시지 브로커 용도로 학습 중입니다.  
-  향후 pub/sub 구조로 이벤트 기반 알림 시스템 확장을 염두에 두고 있습니다.
+### 📚 덕후감
+**도서 이미지 OCR 및 ISBN 매칭 독서 기록 공유 서비스**
+- 외부 API 호출 제한을 극복하기 위해 가변성을 분석하고 **Redis 글로벌 캐시와 Caffeine 로컬 캐시를 분산 적용하는 이중화 전략** 수립. (응답 속도 93.5% 향상: 63.3ms ➡️ 4.1ms)
+- 외부 API 통신 장애 시 가용성을 지키기 위해 **Spring Retry**를 도입하고, 구체적인 네트워크 예외 대상으로 **1초 지연 간격 최대 3회 재시도의 백오프 전략** 구현.
 
-- **OAuth2 인증 구조**  
-  → 사용자 경험 개선을 위한 소셜 로그인 연동(Discord, Google 등)을 직접 구현하기 위해 OAuth2의 인증 흐름과 토큰 구조를 학습하고 있습니다.
+---
+
+## 📝 Latest Blog Posts
+<!-- START_BLOG_POSTS -->
+<!-- END_BLOG_POSTS -->
+
+---
 
 ## 📫 Contact
-
-- Email: gkemg2017@gmail.com  
-- Blog: [개발블로그](https://b-t-d.tistory.com/)  
-- GitHub: [@SungHuii](https://github.com/SungHuii)
-
----
-[![Sunghui's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sunghuii)](https://github.com/anuraghazra/github-readme-stats)
+- **Email:** [gkemg2017@gmail.com](mailto:gkemg2017@gmail.com)
+- **Blog:** [Hong's Develop Diary](https://b-t-d.tistory.com/)
