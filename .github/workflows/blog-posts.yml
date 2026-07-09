@@ -1,0 +1,22 @@
+name: Latest Blog Posts Workflow
+
+on:
+  schedule:
+    # 6시간마다 자동으로 실행하여 블로그 글을 가져옵니다.
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # 필요할 때 깃허브 페이지에서 즉시 실행하는 버튼 활성화
+
+permissions:
+  contents: write # 리드미 파일에 글 목록을 업데이트하고 커밋할 수 있는 권한 부여
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in tistory posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://b-t-d.tistory.com/rss"
