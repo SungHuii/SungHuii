@@ -27,10 +27,8 @@
 ## 📊 GitHub Stats & Streak
 
 <p align="center">
-  <!-- 캐시 갱신 강제 옵션(&cache_seconds=1800) 추가 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=SungHuii&show_icons=true&theme=vue-dark&hide_border=true&cache_seconds=1800" alt="SungHuii's GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=SungHuii&show_icons=true&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub stats" />
   
-  <!-- 불안정한 Heroku 서버 대신 공식 최신 데모랩(demolab.com) 서버로 주소 변경 -->
   <img src="https://streak-stats.demolab.com/?user=SungHuii&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub Streak" />
 </p>
 
