@@ -23,17 +23,6 @@
 </p>
 
 ---
-
-## 📊 GitHub Stats & Streak
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=SungHuii&show_icons=true&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub stats" />
-  
-  <img src="https://streak-stats.demolab.com/?user=SungHuii&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub Streak" />
-</p>
-
----
-
 ## 🚀 Projects
 
 ### 🎵 모두의 플리
@@ -63,3 +52,10 @@
 ## 📫 Contact
 - **Email:** [gkemg2017@gmail.com](mailto:gkemg2017@gmail.com)
 - **Blog:** [Hong's Develop Diary](https://b-t-d.tistory.com/)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-stats-extended.vercel.app/api?username=SungHuii&show_icons=true&theme=vue-dark&hide_border=true" alt="SungHuii's GitHub stats" />
